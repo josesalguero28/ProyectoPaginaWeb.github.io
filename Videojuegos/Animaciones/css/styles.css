@@ -1,0 +1,256 @@
+1
+
+* {
+	padding:0;
+	margin:0;
+}
+
+p {
+	margin-bottom:20px;
+}
+
+header {
+	background-color:#008000;
+	width: 100%;
+	position:fixed;
+	z-index: 100;
+}
+
+nav {
+	float:center;
+}
+
+nav ul {
+	list-style:none;
+	overflow:hidden;
+	border-radius:10pz 10px 10px 10px;
+}
+
+nav ul li {
+	float:left;
+	font-family:Comic Sans Ms;
+	font-size:18px;
+}
+
+nav ul li a {
+	display:block;
+	padding: 20px;
+	color: #FFFF00;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+	color:#00FF00;
+	background-color:#000000;
+}
+ nav ul li a {
+	 border-radius: 10px 10px 10px 10px;
+ }
+	
+	
+body{
+background-image: url(../images/fondo3.gif);
+background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-ms-background-size: cover;
+}
+
+div {
+	background-color:#88C208;
+}
+
+#Motor{
+position:center;
+top: 200px;
+left: 550px;
+		height: 200px;
+		width: 300px; 
+		margin: 10px 10px 10px 10px;
+		-webkit-transition: all 2s ease-in-out; 
+		-moz-transition: all 2s ease-in-out; 
+		-o-transition: all 2s ease-in-out;
+		-ms-transition: all 2s ease-in-out;
+		transition: all 2s ease-in-out;
+}
+
+#Motor:hover {
+
+  transform:rotate(720deg) scale(6,4);
+-webkit-transform: rotate(720deg) scale(6,4); 
+-moz-transform: rotate(720deg) scale(6,4);
+-o-transform:rotate(720deg) scale(6,4);
+-ms-transform:rotate(720deg) scale(6,4);
+}
+
+#Forza{
+position:center;
+top:300px;
+left:550px;
+	height:200px;
+	width:300px;
+	-webkit-transition:all 3s linear;
+	-moz-transition:all 3s linear; 
+	-o-transition:all 3s linear;
+	-ms-transition: all 3s linear;
+	transition: all 3s linear;
+	
+}
+
+#Forza:hover {
+transform: skew(20deg,50deg);
+-webkit-transform:skew(20deg,50deg);
+-moz-transform:skew(20deg,50deg);
+-o-transform:skew(20deg,50deg);
+-ms-transform:skew(20deg,50deg);	
+}
+
+#Six{
+	position:center;
+	top:650px;
+	margin:auto auto;
+	width:200px;
+	height:200px;
+	
+	background-image: url(../images/clancy.jpg);
+	
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+	transition: background-image 2s linear; 
+	-webkit-transition:background-image 2s linear;
+	-moz-transition:background-image 2s linear;
+	-o-transition:background-image 2s linear;
+	-ms-transition:background-image 2s linear;
+	
+}
+
+#Six:hover{
+	
+	background-image: url(../images/juego.jpg);
+	}
+	
+	
+#Tom{
+	position:center;
+	top:300px;
+	margin:auto auto;
+	width:200px;
+	height:200px;
+	
+	background-image: url(../images/tom.jpg);
+	
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+	transition: background-image 2s linear;
+	-webkit-transition:background-image 2s linear;
+	-moz-transition:background-image 2s linear;
+	-o-transition:background-image 2s linear;
+	-ms-transition:background-image 2s linear;
+	
+}
+
+#Tom:hover{
+	
+	background-image: url(../images/juego2.jpg);
+	}
+	
+	
+#Kombat{
+position:center;
+top: 200px;
+left: 550px;
+		height: 200px;
+		width: 300px; 
+		margin: 10px 10px 10px 10px;
+		-webkit-transition: all 2s ease-in-out; 
+		-moz-transition: all 2s ease-in-out; 
+		-o-transition: all 2s ease-in-out;
+		-ms-transition: all 2s ease-in-out;
+		transition: all 2s ease-in-out;
+}
+
+#Kombat:hover {
+
+  transform:rotate(720deg) scale(6,4);
+-webkit-transform: rotate(720deg) scale(6,4); 
+-moz-transform: rotate(720deg) scale(6,4);
+-o-transform:rotate(720deg) scale(6,4);
+-ms-transform:rotate(720deg) scale(6,4);
+}
+
+#Mortal{
+position:center;
+top:300px;
+left:550px;
+	height:200px;
+	width:300px;
+	-webkit-transition:all 3s linear;
+	-moz-transition:all 3s linear; 
+	-o-transition:all 3s linear;
+	-ms-transition: all 3s linear;
+	transition: all 3s linear;
+	
+}
+
+#Mortal:hover {
+transform: skew(20deg,50deg);
+-webkit-transform:skew(20deg,50deg);
+-moz-transform:skew(20deg,50deg);
+-o-transform:skew(20deg,50deg);
+-ms-transform:skew(20deg,50deg);	
+}
+
+#Watch {
+position:center;
+top:200px;
+left:200px;
+height:200px;
+width:250px; 
+margin:110px 10px 10px 10px;
+-webkit-transition: all 2s linear; 
+-moz-transition: all 2s linear; 
+-o-transition:all 2s linear;
+-ms-transition: all 2s linear;
+transition: all 2s linear;	
+}
+
+#Watch:hover {
+
+
+		-webkit-transform:translate(-500px,-100px);
+		-moz-transform:translate(-500px,-100px);
+		-o-transform:translate(-500px,-100px);
+		-ms-transform:translate(-500px,-100px);
+		transform:translate(-500px,-100px);	
+}
+
+#Dog {
+position:center;
+top:400px;
+left:500px;
+height:200px;
+width:250px; 
+margin:110px 10px 10px 10px;
+text-align:center;
+-webkit-transition: all 2s linear; 
+-moz-transition: all 2s linear; 
+-o-transition:all 2s linear;
+-ms-transition: all 2s linear;
+transition: all 2s linear;	
+}
+
+#Dog:hover {
+
+
+		-webkit-transform:translate(500px,100px);
+		-moz-transform:translate(500px,100px);
+		-o-transform:translate(500px,100px);
+		-ms-transform:translate(500px,100px);
+		transform:translate(500px,100px);	
+}
